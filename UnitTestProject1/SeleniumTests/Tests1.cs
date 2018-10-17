@@ -1,5 +1,4 @@
 ﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 using NUnit.Framework;
 using UnitTestProject1.SeleniumComum;
 using UnitTestProject1.SeleniumPageObjects;
@@ -19,7 +18,7 @@ namespace UnitTestProject1
             HomePageObjects homePageObjects = new HomePageObjects();
             homePageObjects.SearchGoogle();
 
-            NUnit.Framework.Assert.Pass();
+            Assert.IsTrue(homePageObjects.btSearch.Displayed);
 
         }
 

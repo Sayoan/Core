@@ -36,16 +36,11 @@ namespace UnitTestProject1.SeleniumPageObjects
             WebDriverWait espera = new WebDriverWait(DriverFactory.INSTANCE, TimeSpan.FromSeconds(5));
 
             //método try catch para validar se foi possível acessar a tela inicial
-            try
-            {
+            
                 Maps.PreencherCampo(tfSearch, "Teste1");
                 Maps.ClicarBotao(btSearch);
 
-            }
-            catch (Exception e)
-            {
-                NUnit.Framework.Assert.Fail(e.ToString());
-            }
+           
 
         }
 
