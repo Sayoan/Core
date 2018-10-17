@@ -12,7 +12,7 @@ using UnitTestProject1.SeleniumComum;
 
 namespace UnitTestProject1.SeleniumUteis
 {
-    class SeleniumPatch 
+    class SeleniumPath 
     {
 
        
