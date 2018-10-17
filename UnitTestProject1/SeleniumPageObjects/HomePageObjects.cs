@@ -32,13 +32,13 @@ namespace UnitTestProject1.SeleniumPageObjects
 
         public void SearchGoogle()
         {
-            SeleniumMaps Maps = new SeleniumMaps();
+            SeleniumUteis.SeleniumUteis uteis = new SeleniumUteis.SeleniumUteis();
             WebDriverWait espera = new WebDriverWait(DriverFactory.INSTANCE, TimeSpan.FromSeconds(5));
 
             //método try catch para validar se foi possível acessar a tela inicial
             
-                Maps.PreencherCampo(tfSearch, "Teste1");
-                Maps.ClicarBotao(btSearch);
+                uteis.PreencherCampo(tfSearch, "Teste1");
+                uteis.ClicarBotao(btSearch);
 
            
 

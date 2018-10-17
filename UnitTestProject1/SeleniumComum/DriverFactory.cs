@@ -22,7 +22,7 @@ namespace UnitTestProject1.SeleniumComum
             if (INSTANCE == null)
             {
                 
-                        INSTANCE = new ChromeDriver(SeleniumPatch.getPathSeleniumDriver());
+                        INSTANCE = new ChromeDriver(SeleniumPath.getPathSeleniumDriver());
                         //Criei um método que retorna o path do driver: SeleniumUteis.SeleniumUteis.getPathSeleniumDriver
                         INSTANCE.Manage().Window.Maximize();
  

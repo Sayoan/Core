@@ -11,9 +11,9 @@ using UnitTestProject1.SeleniumComum;
 
 namespace UnitTestProject1.SeleniumUteis
 {
-    class SeleniumMaps
+    class SeleniumUteis
     {
-        public SeleniumMaps()
+        public SeleniumUteis()
         {
 
             //PageFactory.InitElements(DriverFactory.INSTANCE, this);
